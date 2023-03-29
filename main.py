@@ -14,7 +14,7 @@ else:
     sleep(10)
 
     while(True):
-        pyautogui.write("CARA DE CHOTA")
+        pyautogui.write("Spam Message") # aca se ingresa el mensaje, futuro hacer ingresable por pantalla 
         pyautogui.press("enter")
         if keyboard.is_pressed("space"):
             break
